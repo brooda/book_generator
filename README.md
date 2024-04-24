@@ -4,6 +4,11 @@ This project is for python, you need to install following packages:
 * langchain-openai
 * streamlit
 
+If you know **poetry** package manager, you can install the dependencies with the following command:
+```bash
+poetry install
+```
+It will take those dependencies from the `pyproject.toml` file.
 
 You need to fill this line
 ```python
