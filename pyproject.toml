@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "book-generator"
+version = "0.1.0"
+description = ""
+authors = ["Piotr Bródka <piotrbrodka95@gmail.com>"]
+readme = "README.md"
+packages = [{include = "book_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.33.0"
+langchain-openai = "^0.1.3"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
